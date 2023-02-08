@@ -1,0 +1,14 @@
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\bin\Debug\VoiceChatClient.exe
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\bin\Debug\VoiceChatClient.pdb
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Form1.resources
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Properties.Resources.resources
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\obj\x86\Debug\VoiceChatClient.csproj.GenerateResource.Cache
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\obj\x86\Debug\VoiceChatClient.exe
+C:\Users\mncmilan\AppData\Local\Temporary Projects\VoiceChatClient\obj\x86\Debug\VoiceChatClient.pdb
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.exe
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.pdb
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\bin\Debug\VoiceChatClient.exe
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\bin\Debug\VoiceChatClient.pdb
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Form1.resources
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Properties.Resources.resources
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.csproj.GenerateResource.Cache
