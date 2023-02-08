@@ -12,3 +12,4 @@ C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceCha
 C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Form1.resources
 C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.Properties.Resources.resources
 C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.csproj.GenerateResource.Cache
+C:\Users\mncmilan\documents\visual studio 2010\Projects\VoiceChatClient\VoiceChatClient\obj\x86\Debug\VoiceChatClient.csprojResolveAssemblyReference.cache

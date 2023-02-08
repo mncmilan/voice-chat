@@ -28,8 +28,10 @@ namespace VoiceChatClient
         private State state = new State();
         private EndPoint epFrom = new IPEndPoint(IPAddress.Any, 0);
         private AsyncCallback recv = null;
+        IPEndPoint ipep = new IPEndPoint(IPAddress.Parse("192.168.56.102"), 9050);
         
         Socket socket;
+
         public class State
         {
             public byte[] buffer = new byte[bufSize];
@@ -41,22 +43,8 @@ namespace VoiceChatClient
             mciSendString("open new Type waveaudio alias recsound", null, 0, IntPtr.Zero);
             recordButton.Click += new EventHandler(this.recordButton_Click);
 
-            IPAddress direc = IPAddress.Parse("192.168.56.102");
-            IPEndPoint ipep = new IPEndPoint(direc, 9050);
-
             //Creamos el socket 
             socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-            try
-            {
-                socket.Connect(ipep);//Intentamos conectar el socket
-            }
-            catch (SocketException)
-            {
-                //Si hay excepcion imprimimos error y salimos del programa con return 
-                MessageBox.Show("No he podido conectar con el servidor");
-                return;
-            }
-            
         }
 
         private void recordButton_Click(object sender, EventArgs e)
@@ -82,14 +70,7 @@ namespace VoiceChatClient
         private void sendButton_Click(object sender, EventArgs e)
         {
             byte[] voiceMessage = File.ReadAllBytes(recordingPath);
-            socket.Send(voiceMessage);
-            socket.BeginSend(voiceMessage, 0, voiceMessage.Length, SocketFlags.None, (ar) =>
-            {
-                State so = (State)ar.AsyncState;
-                int bytes = socket.EndSend(ar);
-                MessageBox.Show("sent");
-            }, state);
-                
+            socket.SendTo(voiceMessage, ipep);
         }
 
         private void receiveButton_Click(object sender, EventArgs e)
