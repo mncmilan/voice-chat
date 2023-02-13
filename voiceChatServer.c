@@ -13,7 +13,6 @@ int main(void) {
 	int sock_listen, i, blen, slen = sizeof(si_other);
 	char buf[BUFLEN];
 	
-	
 	sock_listen = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
 	if (sock_listen == -1)
 		printf("Error in socket connection\n");
