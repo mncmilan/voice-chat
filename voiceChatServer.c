@@ -8,7 +8,6 @@
 
 
 int main(void) {
-	pthread_t thread;
 	struct sockaddr_in serv_adr, si_other;
 	int BUFLEN = 8000;
 	int sock_listen, i, blen, slen = sizeof(si_other);
